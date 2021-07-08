@@ -7,7 +7,7 @@ body{
     font-family:soDosans,'Helvetica Neue',Helvetica,Arial,sans-serif;
     font-weight:400;
     color:rgba(0,0,0,0.87);
-    font-size:14px;
+    font-size:0.875em;
     /* letter-spacing:-0.1em; */
     
 }
@@ -47,7 +47,7 @@ header{
 }
 .left-nav nav ul li{
     text-transform: uppercase;
-    padding-left:24px;
+    padding-left:1.5rem;
     font-weight: 700;
     letter-spacing:0.1em;
 }
@@ -70,8 +70,8 @@ header{
     align-items:center;
 }
 .find-store i{
-    font-size:24px;
-    padding-right:8px;
+    font-size:1.5rem;
+    padding-right:0.5rem;
     
 }
 
@@ -139,7 +139,7 @@ span a{
 
 .flex-container{
     /* border:2px solid black; */
-    width:1270px;
+    max-width:1270px;
     height:368px;
     display:flex;
     margin-top:30px;
@@ -150,10 +150,13 @@ span a{
 .image{
     width:50%;
 }
+.ice-beveraged .images{
+    width:50%;
+}
 
 img{
-    max-width:100%;
-    height:auto;
+width:100%;
+    
 }
 
 .flex-svg{
@@ -161,6 +164,7 @@ img{
     display:flex;
     height:368px;
     width:50%;
+    padding:30px 48px;
     flex-direction:column;
     align-items:center;
     justify-content:center;
@@ -209,12 +213,14 @@ h3{
     background-color: #f2f0eb;
     justify-content: center;
     align-items:center;
+    padding:30px 48px;
 }
 
 .text-content{
     /* border:4px solid tomato; */
     width:444.5px;
     height:420px;
+    
 }
 
 .text-content .cta{
@@ -250,7 +256,12 @@ h3{
     width:615px;
     height:789px;
     margin-bottom:30px;
-    margin-right:25px;
+}
+.order-eat:first-child{
+    margin-right:16px;
+}
+.order-eat:last-child{
+    margin-left:16px;
 }
 
 .order-text{
@@ -273,7 +284,7 @@ h3{
 }
 
 .order-text-content p{
-    font-size:19px;
+    font-size:1.18rem;
     font-weight:400px;
     line-height: 1.5;
     margin-bottom:35px;
@@ -284,6 +295,10 @@ h3{
     margin: 0 auto;
     text-align: center;
     
+}
+
+.order-eat .images{
+    display:flex;
 }
 
 .container{
@@ -309,7 +324,7 @@ h3{
 
 .container-text p{
     max-width:70%;
-    font-size:19px;
+    font-size:1.18rem;
     line-height: 1.75;
 }
 .rewards-container{
@@ -322,7 +337,7 @@ h3{
 }
 
 .reward span{
-    font-size:16px;
+    font-size:1rem;
     font-weight:600px;
 }
 
@@ -336,7 +351,7 @@ h3{
 }
 .menu-text{
     width:60%;
-    font-size:16px;
+    font-size:1rem;
     font-weight:600px;
     text-align:center;
     line-height:1.75;
@@ -367,7 +382,8 @@ h3{
 .flex-item h1{
     text-transform: none;
     padding-left:40px;
-    font-size:18px;
+    margin-bottom: 2.2rem;
+    font-size:1.125rem;
 }
 
 .flex-item ul{
@@ -376,8 +392,8 @@ h3{
 }
 
 .flex-item ul li{
-    font-size:16px;
-    line-height:2.2;
+    font-size:1rem;
+    margin-bottom:1.2rem;
     color:rgba(0,0,0,.56);
 }
 
@@ -393,7 +409,7 @@ h3{
 
 .policy ul li{
     padding:15px;
-    font-size:16px;
+    font-size:1rem;
     font-weight:600px;
 }
 
@@ -408,7 +424,7 @@ h3{
 }
 
 .connect i{
-    font-size:28px;
+    font-size:1.75rem;
     padding:8px;
     cursor:pointer;
 }
